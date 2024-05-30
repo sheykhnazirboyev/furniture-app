@@ -8,14 +8,14 @@ function App() {
     <BrowserRouter>
       <React.Suspense fallback={<div>Loading....</div>}>
         <Routes>
-          <Route path='/' element={<GeneraLayout />}>
+          {/* <Route path='/' element={<GeneraLayout />}>
             <Route index element={<Home />} />
             <Route path='/about' element={<About />} />
             <Route path='/cart' element={<Cart />} />
             <Route path='/checkout' element={<Checkout />} />
             <Route path='/products/:productId' element={<SingleProduct />} />
           </Route>
-          <Route path='/login' element={<Login />} />
+          <Route path='/login' element={<Login />} /> */}
         </Routes>
       </React.Suspense>
     </BrowserRouter>
