@@ -1,5 +1,9 @@
-import React from 'react'
-import { BrowserRouter } from 'react-router-dom'
+import { NavLink, Outlet } from 'react-router-dom'
+import logo from '../assets/react_logo.png'
+import One from '../assets/1.png';
+import Two from '../assets/2.png';
+import Three from '../assets/3.png';
+import Four from '../assets/4.png';
 
 function GeneraLayout() {
   return (

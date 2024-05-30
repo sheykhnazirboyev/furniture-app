@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import GeneraLayout from './components/generaLayout'
+const Login = React.lazy(() => import('./components/Login'))
 
 function App() {
   return (
