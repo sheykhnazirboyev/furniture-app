@@ -5,6 +5,8 @@ import GeneraLayout from './components/generaLayout'
 const Login = React.lazy(() => import('./components/Login'))
 const Shop = React.lazy(() => import('./pages/Shop/Shop'))
 
+ //  some commend
+
 function App() {
   return (
     <BrowserRouter>
