@@ -1,0 +1,7 @@
+ .hero-background {
+    background-image: url("../../assets/images/hero_bg.jpeg");
+    width: 100vw;
+    height: 1007px;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
